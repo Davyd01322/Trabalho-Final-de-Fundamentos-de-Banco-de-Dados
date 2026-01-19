@@ -1,0 +1,20 @@
+create table patrimonio(
+	id_patrimonio int primary key,
+	nome_atribuido varchar(300),
+	tipo varchar(50),
+	grupo varchar(50),
+	codigo_sicg_iphan varchar(50), 
+	estado_preservacao varchar(50),
+	estagio_instrucao varchar(15),
+	estado_conservacao varchar(20),
+	uso_do_solo varchar(10),
+	processo_administrativo int,
+	localizacao_processo varchar(10),
+	ano_de_abertura int,
+	natureza varchar(50),
+	entorno varchar(300),
+	propriedade varchar(20),
+	responsavel_tecnico_cpf varchar(11),
+	id_visita int,
+	nome_orgao_responsavel varchar(10)
+);
